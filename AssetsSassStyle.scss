@@ -1,0 +1,59 @@
+
+$white: white;
+$black:  black;
+$color_seagull_approx: skyblue;
+
+$url_0: url(bg.png);
+
+body {
+	margin: 0;
+	padding: 0;
+	background-position: center;
+	background-size: cover;
+	background-image: $url_0;
+}
+h1 {
+	text-align: center;
+	color: $white;
+}
+h2 {
+	color: $white;
+}
+p {
+	font-size: 19px;
+	color: $white;
+}
+img {
+	margin-left: (100/20)*1%;
+	width: (100/0.9)*1%;
+	height: (100/0.8)*1%;
+	border: 10px solid $black;
+	border-radius: 5px;
+}
+#overlay {
+	margin: 50px auto;
+	width: 960px;
+	height: 500px;
+	background-color: rgbs(0,0,0,0,5);
+	border-radius: 5px;
+}
+.block1 {
+	width: 500px;
+	height: 500px;
+	float: left;
+}
+.block2 {
+	width: 400px;
+	float: left;
+	margin-left: 50px;
+}
+button {
+	width: 150px;
+	height: 50px;
+	background-color: $color_seagull_approx;
+	color: $white;
+	border: 0;
+	border-radius: 2px;
+	font-size: 15px;
+	margin-top: 5px;
+}
